@@ -1,0 +1,3 @@
+## Otras nodarbibas gaita
+## VSC 
+
