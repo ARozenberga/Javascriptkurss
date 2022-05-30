@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forma</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Vārds:</label><br>
+  <input type="text" id="fname" name="fname" value="Anita"><br>
+  <label for="lname">Uzvārds:</label><br>
+  <input type="text" id="lname" name="lname" value="Rozenberga"><br><br>
+  <label for="lname">Datums:</label><br>
+  <input type="text" id="lname" name="lname" value="30.05.2022"><br><br>
+  <form action="/action_page.php">
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit" value="Submit">
+  </form>
+<label for="fname">Komentārs:</label><br>
+<textarea name="Message" cols="40" rows="6" nChange="msg(this.form)"></textarea><br>
+<input type="submit" value="Nosūtīt" onClick="return checkIt()">
+<input type="reset" value="Dzēst">
+<form action="/action_page.php">
+    <label for="username">Lietotāja vārds:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Parole:</label><br>
+    <input type="password" id="pwd" name="pwd"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</form> 
+
+
+</body>
+</html>
