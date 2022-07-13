@@ -14,11 +14,7 @@ for(;i<5; ){
 }
 document.getElementById("for_automatic_count_nonclassic").innerHTML=text;
 
-text="";
-var i=1;
-while( i<5){text=text+i"<br>";
-i= sqrt(i)+setInterval(i);
-}
+
 document.getElementById("for_automatic_count_nonclassic").innerHTML=text;
 
 let text = "for count until " + 5 + ":<br>";
